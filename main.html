@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <!-- Add Font Awesome for icons -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="main.css">
+        <style>
+        body {
+            background-color: #e0f2e9; /* Greenish background */
+        }
+        .navbar {
+            background-color: #009688; /* Teal color for navbar */
+        }
+        .navbar-dark .navbar-toggler-icon {
+            border-color: #fff;
+        }
+        .navbar-dark .navbar-toggler-icon:focus {
+            outline: none;
+        }
+        .jumbotron {
+            background-color: #009688; /* Teal color for jumbotron */
+            color: #fff;
+            text-align: center;
+            padding: 100px 0;
+        }
+        .footer {
+            background-color: #009688; /* Teal color for footer */
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        /* Add social media icons to the footer */
+        .footer a {
+            color: #fff;
+            margin: 0 10px;
+            font-size: 24px;
+        }
+        /* Comment section */
+        .comments {
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+    </style>
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <i class="fas fa-user mr-2"></i>
+                    <!-- Replace with your preferred icon class -->
+                    Mohiul Bari Ekhlas</a>
+                <button class="navbar-toggler" type="button"
+                    data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <!-- Add a Font Awesome icon for the navbar toggler -->
+                    <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <div class="jumbotron">
+            <h1>Mohiul Bari Ekhlas</h1>
+            <p>Web Developer | Designer | Photographer</p>
+        </div>
+
+        <!-- About Section -->
+        <!-- About Section -->
+        <section id="about" class="py-5">
+            <div class="container">
+                <div class="text-center">
+                    <!-- Add your profile image here -->
+                    <img
+                        src="https://i.pinimg.com/564x/17/bb/1a/17bb1a653576685973982fe3321f74a9.jpg"
+                        alt="Your Profile Image"
+                        class="img-fluid rounded-circle"
+                        style="max-width: 200px;">
+                </div>
+                <h2>About Me</h2>
+                <p>I'm a versatile professional with expertise in web
+                    development, design, and photography. With a passion for
+                    creating exceptional digital experiences, I blend my
+                    technical and artistic skills to deliver innovative
+                    solutions.</p>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="py-5">
+            <div class="container">
+                <h2>Portfolio</h2>
+                <div class="row">
+                    <!-- Add your portfolio items here -->
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <img
+                                src="https://img.freepik.com/free-vector/desktop-smartphone-app-development_23-2148683810.jpg?size=626&ext=jpg&ga=GA1.1.1739223467.1693574871&semt=ais"
+                                class="card-img-top" alt="Project 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Bootstrap</h5>
+                                <p class="card-text">I have completed Bootstrap
+                                    version 4.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <img
+                                src="https://img.freepik.com/free-vector/programming-concept-illustration_114360-1351.jpg?size=626&ext=jpg&ga=GA1.1.1739223467.1693574871&semt=ais"
+                                class="card-img-top" alt="Project 2">
+                            <div class="card-body">
+                                <h5 class="card-title">CSS</h5>
+                                <p class="card-text">I have completed CSS.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <img
+                                src="https://img.freepik.com/free-vector/html5-programming-internet-website-development-web-application-engineering-script-writing-html-code-optimization-programmer-fixing-bugs_335657-263.jpg?w=740&t=st=1693575246~exp=1693575846~hmac=411595ca8e8f4d67dc3420ea24e4ff5a69928c10b811ef43810058ea2ca7a7dd"
+                                class="card-img-top" alt="Project 3">
+                            <div class="card-body">
+                                <h5 class="card-title">HTML5</h5>
+                                <p class="card-text">I have completed HTML5.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-5">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <p>You can reach me at ekhlasifarmer@gmail.com</p>
+            </div>
+        </section>
+
+        <!-- Comment Section -->
+        <section class="comments">
+            <div class="container">
+                <h2>Comments</h2>
+                <!-- Add your comment form here -->
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name"
+                            placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Comment</label>
+                        <textarea class="form-control" id="comment" rows="4"
+                            placeholder="Your Comment"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; 2023 Mohiul Bari Ekhlas</p>
+                <!-- Add social media icons in the footer as well -->
+                <div>
+                    <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i>
